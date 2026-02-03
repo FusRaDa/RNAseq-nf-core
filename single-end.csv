@@ -1,0 +1,7 @@
+sample,fastq_1,strandedness
+ENCSR000COQ1,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000COQ1_1.fastq.gz,auto
+ENCSR000COQ2,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000COQ2_1.fastq.gz,auto
+ENCSR000COR1,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000COR1_1.fastq.gz,auto
+ENCSR000COR2,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000COR2_1.fastq.gz,auto
+ENCSR000CPO1,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000CPO1_1.fastq.gz,auto
+ENCSR000CPO2,/content/drive/MyDrive/Colab_Notebooks/RNA-seq-nf/reads/ENCSR000CPO2_1.fastq.gz,auto
