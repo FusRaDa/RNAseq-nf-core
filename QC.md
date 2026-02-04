@@ -1,1 +1,1 @@
-<iframe src="results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/multiqc/star_salmon/multiqc_report.html" width="100%" height="500px"></iframe>
+[View MULTIQC Results](https://github.com/FusRaDa/RNAseq-nf-core/blob/main/results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/multiqc/star_salmon/multiqc_report.html)
