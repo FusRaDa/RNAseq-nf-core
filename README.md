@@ -1,7 +1,5 @@
 ## NF-CORE/RNA-SEQ pipeline
 
-### To read about my experience in understanding RNAseq outputs, view RDS.md and QC.md
-
 This notebook was written in Google Collab and intended to be ran in that environment. View the markdown of the notebook for more details into the specific hardware requirement.
 
 The notebook `RNA-seq-nf.ipynb` uses nf-core/rnaseq pipeline to produce all necessary outputs. View the notebook to learn how to download the data and organize them into the Google Collab environment. 
@@ -52,3 +50,16 @@ There are many more features in this pipeline, but the primary objective of this
     - go over the output files, specifically from MULTIQC's generated HTML page
 3. Use R to visualize the RDS file produced by the output.
     - we will be comparing raw counts, scaled counts, tpm, length scared counts, and gene lengths
+
+
+## RDS Gene Expression Metrics
+
+![Raw Counts](rds_gene_counts_graph.png)
+
+![Raw Lengths](rds_gene_lengths_graph.png)
+
+![Scaled Counts](rds_gene_counts_scaled_graph.png)
+
+![Scaled Lengths](rds_gene_counts_length_scaled_graph.png)
+
+![TPM (Scaled Lengths and Counts)](rds_gene_tpm_graph.png)
