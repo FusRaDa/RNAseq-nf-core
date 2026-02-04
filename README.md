@@ -2,7 +2,9 @@
 
 This notebook was written in Google Collab and intended to be ran in that environment. View the markdown of the notebook for more details into the specific hardware requirement.
 
-This pipeline will produce a total of 22 directories consisting of 6 samples each aligned to all 22 of the human chromasomes from the notebook: `RNA-seq-nf.ipynb`
+The notebook `RNA-seq-nf.ipynb` uses nf-core/rnaseq pipeline to produce all necessary outputs. View the notebook to learn how to download the data and organize them into the Google Collab environment. 
+
+**Note that you will most likely need Google Collab Pro to run the pipeline. It is free for US students but if you can't run it, you can still view the RDS results and MULTIQC HTML page**
 
 The `view_summerized_experiment.R` then takes each .RDS file produced by the pipeline and ranks each gene of every sample by their count/expression level.
 
@@ -43,5 +45,8 @@ Visit this link to see all the possible outputs of this pipeline. For now I am i
 
 There are many more features in this pipeline, but the primary objective of this project is to:
 1. perform RNAseq analysis on reads from the: https://www.encodeproject.org/
+    - this includes aligning reads to chromasome 22
 2. validate process with quality control parameters
-3. rank gene expression for each sample in each aligned chromasome
+    - go over the output files, specifically from MULTIQC's generated HTML page
+3. Use R to visualize the RDS file produced by the output.
+    - we will be comparing raw counts, scaled counts, tpm, length scared counts, and gene lengths
