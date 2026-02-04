@@ -1,3 +1,10 @@
-results/*/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/fastqc/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/fq_lint/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/pipeline_info/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/samplesheets/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/star_salmon/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/trimgalore/*
+results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/multiqc/star_salmon/*
 !README.md
 !results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/multiqc/star_salmon/multiqc_report.html
+!results/Homo_sapiens.GRCh38.dna.chromosome.22.fa/star_salmon/null.merged.gene.SummarizedExperiment.rds
