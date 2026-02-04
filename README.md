@@ -50,3 +50,6 @@ There are many more features in this pipeline, but the primary objective of this
     - go over the output files, specifically from MULTIQC's generated HTML page
 3. Use R to visualize the RDS file produced by the output.
     - we will be comparing raw counts, scaled counts, tpm, length scared counts, and gene lengths
+
+
+### To read about my experience in understanding RNAseq outputs, view RDS.md and QC.md
